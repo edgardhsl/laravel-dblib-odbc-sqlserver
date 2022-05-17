@@ -2,7 +2,10 @@
     "name": "rui_mashita/laravel-dblib-odbc-sqlserver",
     "type": "library",
     "description": "PDO DBLIB or PDO ODBC SQL Server Driver for Laravel 4",
-    "keywords": ["odbc","laravel"],
+    "keywords": [
+        "odbc",
+        "laravel"
+    ],
     "authors": [
         {
             "name": "Takuya Wakisaka",
@@ -11,14 +14,22 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "~4.2",
-        "illuminate/database": "~4.2"
+        "php": ">=8.0",
+        "illuminate/support": "^v9.13.0",
+        "illuminate/database": "~illuminate/database"
     },
     "autoload": {
         "psr-4": {
             "DblibOdbcSqlServer\\Database\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "require-dev": {
+        "composer/composer": "2.4.x-dev"
+    }
 }

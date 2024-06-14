@@ -1,5 +1,5 @@
 {
-    "name": "rui_mashita/laravel-dblib-odbc-sqlserver",
+    "name": "edgardhsl/laravel-dblib-odbc-sqlserver",
     "type": "library",
     "description": "PDO DBLIB or PDO ODBC SQL Server Driver for Laravel 4",
     "keywords": [
